@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mostExpensiveSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sets.xsd">
+	<collection type="Star Wars">
+		<set top="9" identify="10179" avaibleInRetail="No" isRetired="Yes" inStoreFrom="2007" inStoreUntil="2010">
+			<name>Ultimate Collector's Millennium Falcon</name>
+			<retailPriceInDollar>500</retailPriceInDollar>
+			<actualMinPriceInDollar>1899</actualMinPriceInDollar>
+			<priceGrowth>380%</priceGrowth>
+			<ageRestrictions>
+				<minAge>16</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<images>
+				<image source="img/lego-10179-1_medium.jpg">Ultimate Collector's Millennium Falcon</image>
+			</images>
+			<pieces>
+				<piecesAmount>5197</piecesAmount>
+				<minifiguresAmount>5</minifiguresAmount>
+				<minifigures>
+					<minifigure n="1">
+						Chewbacca
+					</minifigure>
+					<minifigure n="2">
+						Han Solo
+					</minifigure>
+					<minifigure n="3">
+						Luke Skywalker
+					</minifigure>
+					<minifigure n="4">
+						Obi-Wan Kenobi
+					</minifigure>
+					<minifigure n="5">
+						Prinvess Leia
+					</minifigure>
+				</minifigures>
+			</pieces>
+			<weight>10,2kg</weight>
+		</set>
+		<set top="6" identify="75331" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2022">
+			<name>The Razor Crest</name>
+			<retailPriceInDollar>600</retailPriceInDollar>
+			<actualMinPriceInDollar>600</actualMinPriceInDollar>
+			<priceGrowth>none</priceGrowth>
+			<ageRestrictions>
+				<minAge>18</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<images>
+				<image source="img/lego-75331-1_medium.jpg">The Razor Crest</image>
+			</images>
+			<pieces>
+				<piecesAmount>6187</piecesAmount>
+				<minifiguresAmount>5</minifiguresAmount>
+				<minifigures>
+					<minifigure n="1">
+						Mandalorian
+					</minifigure>
+					<minifigure n="2">
+						Mythrol
+					</minifigure>
+					<minifigure n="3">
+						Kuiil
+					</minifigure>
+					<minifigure n="4">
+						Grogi
+					</minifigure>
+					<minifigure n="5">
+						Blurrg
+					</minifigure>
+				</minifigures>
+			</pieces>
+			<weight>Around 9kg</weight>
+		</set>
+		<set top="3" identify="75252" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2019">
+			<name>Imperial Star Destroyer</name>
+			<retailPriceInDollar>700</retailPriceInDollar>
+			<actualMinPriceInDollar>700</actualMinPriceInDollar>
+			<priceGrowth>none</priceGrowth>
+			<ageRestrictions>
+				<minAge>16</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<links>
+				<link source="https://www.lego.com/en-us/product/imperial-star-destroyer-75252">Imperial Star Destroyer</link>
+			</links>
+			<pieces>
+				<piecesAmount>4784</piecesAmount>
+				<minifiguresAmount>2</minifiguresAmount>
+				<minifigures>
+					<minifigure n="1">
+						Imperial Officer
+					</minifigure>
+					<minifigure n="2">
+						Imperial Officer
+					</minifigure>
+				</minifigures>
+			</pieces>
+			<weight>12,5</weight>
+		</set>
+		<set top="2" identify="75313" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2021">
+			<name>AT-AT</name>
+			<retailPriceInDollar>850</retailPriceInDollar>
+			<actualMinPriceInDollar>850</actualMinPriceInDollar>
+			<priceGrowth>none</priceGrowth>
+			<ageRestrictions>
+				<minAge>18</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<links>
+				<link source="https://www.lego.com/en-us/product/imperial-star-destroyer-75252">AT-AT</link>
+			</links>
+			<pieces>
+				<piecesAmount>6785</piecesAmount>
+				<minifiguresAmount>9</minifiguresAmount>
+				<minifigures>
+					<minifigure n="1">
+						AT-AT Driver
+					</minifigure>
+					<minifigure n="2">
+						AT-AT Driver
+					</minifigure>
+					<minifigure n="3">
+						General Maximillian Veers
+					</minifigure>
+					<minifigure n="4">
+						Luke Skywalker
+					</minifigure>
+					<minifigure n="5">
+						Snowtrooper Commander
+					</minifigure>
+					<minifigure n="6">
+						Snowtrooper
+					</minifigure>
+					<minifigure n="7">
+						Snowtrooper
+					<minifigure n="8">
+						Snowtrooper
+					</minifigure>
+					<minifigure n="9">
+						Snowtrooper
+					</minifigure>
+					</minifigure>
+				</minifigures>
+			</pieces>
+			<weight>10,7kg</weight>
+		</set>
+		<set top="1" identify="75192" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2017">
+			<name>Millennium Falcon</name>
+			<retailPriceInDollar>850</retailPriceInDollar>
+			<actualMinPriceInDollar>850</actualMinPriceInDollar>
+			<priceGrowth>none</priceGrowth>
+			<ageRestrictions>
+				<minAge>16</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<links>
+				<link source="https://www.lego.com/en-us/product/imperial-star-destroyer-75252">Millennium Falcon</link>
+			</links>
+			<pieces>
+				<piecesAmount>7541</piecesAmount>
+				<minifiguresAmount>8</minifiguresAmount>
+				<minifigures>
+					<minifigure n="1">
+						BB-8
+					</minifigure>
+					<minifigure n="2">
+						C-3PO
+					</minifigure>
+					<minifigure n="3">
+						Chewbacca
+					</minifigure>
+					<minifigure n="4">
+						Finn
+					</minifigure>
+					<minifigure n="5">
+						Han Solo
+					</minifigure>
+					<minifigure n="6">
+						Old Han Solo
+					</minifigure>
+					<minifigure n="7">
+						Princess Leia
+					</minifigure>
+					<minifigure n="8">
+						Rey
+					</minifigure>
+				</minifigures>
+			</pieces>
+			<weight>13,2kg</weight>
+		</set>
+	</collection>
+	<collection type="Icons">
+		<set top="7" identify="10276" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2022">
+			<name>Colosseum</name>
+			<retailPriceInDollar>550</retailPriceInDollar>
+			<actualMinPriceInDollar>550</actualMinPriceInDollar>
+			<priceGrowth>none</priceGrowth>
+			<ageRestrictions>
+				<minAge>18</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<images>
+				<image source="img/lego-10276-1_medium.jpg">Collosseum</image>
+			</images>
+			<pieces>
+				<piecesAmount>9036</piecesAmount>
+				<minifiguresAmount>0</minifiguresAmount>
+			</pieces>
+			<weight>10,8kg</weight>
+		</set>
+		<set top="5" identify="10307" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2022">
+			<name>Eiffel Tower</name>
+			<retailPriceInDollar>630</retailPriceInDollar>
+			<actualMinPriceInDollar>630</actualMinPriceInDollar>
+			<priceGrowth>0</priceGrowth>
+			<ageRestrictions>
+				<minAge>18</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<images>
+				<image source="img/lego-10307-1_medium.jpg">Eiffel Tower</image>
+			</images>
+			<pieces>
+				<piecesAmount>10001</piecesAmount>
+				<minifiguresAmount>0</minifiguresAmount>
+			</pieces>
+			<weight>8,9kg</weight>
+		</set>
+		<set top="4" identify="10294" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2021">
+			<name>Titanic</name>
+			<retailPriceInDollar>680</retailPriceInDollar>
+			<actualMinPriceInDollar>680</actualMinPriceInDollar>
+			<priceGrowth>none</priceGrowth>
+			<ageRestrictions>
+				<minAge>18</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<images>
+				<image source="img/lego-10294-1_medium.jpg">Titanic</image>
+			</images>
+			<pieces>
+				<piecesAmount>9090</piecesAmount>
+				<minifiguresAmount>0</minifiguresAmount>
+			</pieces>
+			<weight>14kg</weight>
+		</set>
+	</collection>
+	<collection>
+		<set top="10" identify="42131" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2021">
+			<name>Cat D11 Bulldozer</name>
+			<retailPriceInDollar>500</retailPriceInDollar>
+			<actualMinPriceInDollar>500</actualMinPriceInDollar>
+			<priceGrowth>none</priceGrowth>
+			<ageRestrictions>
+				<minAge>18</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<images>
+				<image source="img/lego-42131-1_medium.jpg">Cat D11 Bulldozer</image>
+			</images>
+			<pieces>
+				<piecesAmount>3854</piecesAmount>
+				<minifiguresAmount>0</minifiguresAmount>
+			</pieces>
+			<weight>6,6kg</weight>
+		</set>
+	</collection>
+	<collection>
+		<set top="8" identify="76210" avaibleInRetail="Yes" isRetired="No" inStoreFrom="2022">
+			<name>Hulkbuster​</name>
+			<retailPriceInDollar>550</retailPriceInDollar>
+			<actualMinPriceInDollar>550</actualMinPriceInDollar>
+			<priceGrowth>none</priceGrowth>
+			<ageRestrictions>
+				<minAge>18</minAge>
+				<maxAge>Unlimited</maxAge>
+			</ageRestrictions>
+			<images>
+				<image source="img/lego-76210-1_medium.jpg">Hulkbuster</image>
+			</images>
+			<pieces>
+				<piecesAmount>4049</piecesAmount>
+				<minifiguresAmount>1</minifiguresAmount>
+				<minifigures>
+					<minifigure n="1">
+
+					</minifigure>
+				</minifigures>
+			</pieces>
+			<weight>10kg</weight>
+		</set>
+	</collection>
+</mostExpensiveSets>

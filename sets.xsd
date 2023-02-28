@@ -1,0 +1,134 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+
+
+	<xs:element name="mostExpensiveSets">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="collection" minOccurs="0" maxOccurs="100"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="collection">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name ="set" type ="setType" minOccurs="0" maxOccurs="100"></xs:element>
+			</xs:sequence>
+			<xs:attribute  name="type" id="type" type="longString"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="setType">
+		<xs:sequence>
+			<xs:element name="name" type="longString"></xs:element>
+			<xs:element name="retailPriceInDollar" type="mediumInclusive"></xs:element>
+			<xs:element name="actualMinPriceInDollar" type="mediumInclusive"></xs:element>
+			<xs:element name="priceGrowth" type="shortString"></xs:element>
+			<xs:element name="ageRestrictions" type="age"></xs:element>
+			<xs:choice>
+				<xs:element name="images" type="imagesType"></xs:element>
+				<xs:element name="links" type="linksType"></xs:element>
+			</xs:choice>
+			<xs:element name="pieces" type ="piecesType"></xs:element>
+			<xs:element name="weight" type="mediumString"></xs:element>
+		</xs:sequence>
+		<xs:attribute  name="top" id="top" type="shortInclusive"></xs:attribute>
+		<xs:attribute  name="identify" id="identify" type="longInclusive"></xs:attribute>
+		<xs:attribute  name="avaibleInRetail" id="avaibleInRetail" type="shortString"></xs:attribute>
+		<xs:attribute  name="isRetired" id="isRetired" type="shortString"></xs:attribute>
+		<xs:attribute  name="inStoreFrom" id="inStoreFrom" type="mediumInclusive"></xs:attribute>
+		<xs:attribute name="inStoreUntil" id="inStoreUntil" use="optional" type="mediumInclusive"></xs:attribute>
+	</xs:complexType>
+
+	<xs:simpleType name="shortString" id="shortString">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"></xs:minLength>
+			<xs:maxLength value="6"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+				   
+
+	<xs:simpleType name="longString" id="longString">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="5"></xs:minLength>
+			<xs:maxLength value="40"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="mediumString" id="mediumString">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"></xs:minLength>
+			<xs:maxLength value="20"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="shortInclusive" id="shortInclusive">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"></xs:minInclusive>
+			<xs:maxInclusive value="18"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="mediumInclusive" id="mediumInclusive">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"></xs:minInclusive>
+			<xs:maxInclusive value="3000"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="longInclusive" id="longInclusive">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1000"></xs:minInclusive>
+			<xs:maxInclusive value="100000"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="age" id="age">
+		<xs:sequence>
+			<xs:element name="minAge" type="shortInclusive"></xs:element>
+			<xs:element name="maxAge" type="mediumString"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="piecesType" id="piecesType">
+		<xs:sequence>
+			<xs:element name="piecesAmount" type="longInclusive"></xs:element>
+			<xs:element name="minifiguresAmount" type="shortInclusive"></xs:element>
+			<xs:element name="minifigures"  minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:sequence>
+							<xs:element name="minifigure"  minOccurs="0" maxOccurs="15"></xs:element>
+						</xs:sequence>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="minifigure">
+		<xs:sequence>
+			<xs:element name="minifigure"></xs:element>
+		</xs:sequence>
+		<xs:attribute ref="n"></xs:attribute>
+	</xs:complexType>
+
+	<xs:attribute name="n" id="n" type="xs:short"></xs:attribute>
+
+	<xs:complexType name="linksType">
+		<xs:sequence>
+			<xs:element name="link"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="imagesType">
+		<xs:sequence>
+			<xs:element name="image"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	
+	
+</xs:schema>

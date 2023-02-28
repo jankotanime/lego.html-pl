@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<title>Lego - świat wyobraźni</title>
+	<link rel="stylesheet" href="css.css">
+	<link rel="shortcut icon" href="img/ikona.ico">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div>
+				<svg style="padding-top:10px; font-family:tekst; font-style:italic" width="80" height="80">
+					<rect width="80" height="80" style="fill:red;stroke-width:2;stroke:black" />
+					<text x="3" y="50" font-size="xx-large" fill=" white" stroke-width="3" stroke="yellow">LEGO</text>
+					<text x="3" y="50" font-size="xx-large" fill=" white" stroke-width="0.5" stroke="black">LEGO</text>
+				</svg>
+				<span id="header" style="font-size:xx-large; padding-left:1%; position:fixed; padding-top:10px">
+					<b>
+						- świat wyobraźni
+					</b>
+				</span>
+				<nav style="font-size:medium; font-family:tekst; float:right; padding-right:10%; padding-top:0">
+					<ul>
+						<li><a style="color:#1d1d1d" href="index.html">Strona główna</a></li>
+						<li><a style="color:#1d1d1d" href="Historia.html">Historia Lego</a></li>
+						<li><a style="color:#1d1d1d" href="Kultura.html">Lego w kulturze</a></li>
+						<li><a style="color:#1d1d1d" class="active" href="Galeria.html">Galeria</a></li>
+						<li>
+							<div class="dropdown" style="font-size:medium; font-family:tekst; float:left; padding-top:0">
+								<div class="dropdown-buttom">Lego w social mediach</div>
+								<div class="dropdown-content">
+									<a style="color:#1d1d1d" href="www.lego.com"> Oficjalna strona Lego</a>
+									<a style="color:#1d1d1d" href="www.instagram.com/lego/">Instagram</a>
+									<a style="color:#1d1d1d" href="www.facebook.com/LEGO">Facebook</a>
+									<a style="color:#1d1d1d" href="www.youtube.com/@LEGO">Youtube</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<a name="top"></a>
+		<div id="gallery" style="margin-top:15%">
+			<a class="u-blowUpImg" href="img/galeria1.jpg">
+				<img src="img/galeria1.jpg" height="200" width="200" alt="Lego Falling Bulding">
+			</a>
+			<a class="u-blowUpImg" href="img/galeria2.jpg">
+				<img src="img/galeria2.jpg" height="200" width="200" alt="Lego Mountain Road">
+			</a>
+			<a class="u-blowUpImg" href="img/galeria3.jpg">
+				<img src="img/galeria3.jpg" height="200" width="200" alt="Lego Waterfall">
+			</a>
+			<a class="u-blowUpImg" href="img/galeria4.jpg">
+				<img src="img/galeria4.jpg" height="200" width="200" alt="Lego Nirvana album">
+			</a>
+			<a class="u-blowUpImg" href="img/galeria5.jpg">
+				<img src="img/galeria5.jpg" height="200" width="200" alt="Lego Station">
+			</a>
+			<a href="https://pl.pinterest.com/pin/3729612226047644/" style="padding-left:80px">author</a>
+			<a href="https://www.theverge.com/2017/9/28/16380632/lego-house-now-open-billund-denmark" style="padding-left:160px">author</a>
+			<a href="https://www.wweek.com/arts/visual-arts/2017/07/11/hero-portland-man-built-an-8-foot-tall-multnomah-falls-out-of-legos/" style="padding-left:160px">author</a>
+			<a href="https://thetoyzone.com/20-album-covers-recreated-in-lego" style="padding-left:160px">author</a>
+			<a href="https://pl.pinterest.com/pin/136726538667219764/" style="padding-left:160px">author</a>
+		</div>
+
+		<div id="content" style="padding: 20px;">
+			<center>
+				<section>
+					<strong>Ankieta dla fanów Lego:</strong><br/>
+					<form action:"url" method="post">
+						<div>
+							<p>
+								Podaj swój wiek:
+								<select name="wiek">
+									<option selected disabled>wybierz wiek</option>
+									<option>-12</option>
+									<option>12-16</option>
+									<option>16-20</option>
+									<option>20-40</option>
+									<option>40+</option>
+								</select>
+							</p>
+							Podaj płeć:<br/>
+							<input type="radio" name="plec" value="Woman">Kobieta<br/>
+							<input type="radio" name="plec" value="Man">Mężczyzna<br/>
+							<input type="radio" name="plec" value="Other">Inna<br/>
+							<p>
+								Która z tych kolekcji jest Twoją ulubioną? <br/>
+								<input type="checkbox" name="sets" value="LOTR">Lego The Lord Of The Rings<br>
+								<input type="checkbox" name="sets" value="ST">Lego Star Wars<br>
+								<input type="checkbox" name="sets" value="City">Lego City<br>
+								<input type="checkbox" name="sets" value="Ninjago">Lego Ninjago<br>
+								<input type="checkbox" name="sets" value="Castle">Lego Castle<br>
+								<input type="checkbox" name="sets" value="Friends">Lego Friends<br>
+								<input type="checkbox" name="sets" value="Technic">Lego Technic<br>
+								<input type="checkbox" name="sets" value="Other">Inna (podaj jaka):
+								<input name="sets">
+
+							</p>
+							<input type="reset" value="Wyczyść dane"><br/>
+							<p>Wypisz swoje kolekcje:</p>
+							<textarea placeholder="Wpisz tutaj kolekcje które posiadasz..." name="Klocki" cols="50" rows="10"></textarea>
+							<br><br><br>
+							<p>
+								Czy chcesz się zapisać do naszego newslettera?<input type="checkbox" name="newsletter" value="newsletter">
+							</p>
+							<label for="email">E-mail: </label><input type="text" id="email">
+							<input type="submit" value="Submit"><br/>
+						</div>
+					</form>
+				</section>
+			</center>
+		</div>
+	</div>
+	<footer>
+		Copyright 2022, Student Jan Gasztold Politechnika Gdańska
+		<p><a href="#top">Przejdź do góry strony</a></p>
+	</footer>
+
+</body>
+</html>
+
+
